@@ -1,0 +1,185 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serato DJ Pro & DJ Jazzy Jeff using 2 Turntables and Vinyl Records</title>
+    <style>
+        /* Google Font */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+        
+        body {
+            font-family: 'Georgia Pro', sans-serif;
+            background: url('waterfalls.gif') no-repeat center center fixed;
+            background-size: cover;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        
+        #wrapper {
+            width: 80%;
+            margin: auto;
+        }
+        
+        header {
+            text-align: center;
+            padding: 20px;
+            background: rgba(19, 153, 231, 0);
+            border-radius: 20px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+        
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+        main {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        
+        section, aside {
+            padding: 20px;
+            border: 2px solid white;
+            border-radius: 10px;
+        }
+        
+        section {
+            width: 75%;
+            background: rgba(19, 153, 231, 0.9);
+        }
+        
+        aside {
+            width: 30%;
+            background: rgba(51, 51, 51, 0.9);
+            position: relative;
+        }
+        
+        .dj-img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+        }
+        
+        .serato-logo {
+            width: 100px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            opacity: 0.8;
+        }
+        
+        ul {
+            list-style-type: square;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            border: 1px solid white;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        footer {
+			text-align: center;
+			padding: 20px;
+			font-size: 25px;
+			background: rgba(19, 153, 231, 0);
+			margin-top: 20px;
+			border-radius: 10px;
+			color: black; /* Added this line to change the font color to black */
+			font-weight: bold;
+		}
+
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Serato DJ Pro & DJ Jazzy Jeff</h1>
+            <nav>
+                <a href="#serato">Serato DJ Pro</a>
+                <a href="#jazzy">DJ Jazzy Jeff</a>
+            </nav>
+        </header>
+        
+        <main>
+            <section id="serato">
+                <h2>About Serato DJ Pro</h2>
+                <p>Serato DJ Pro is an industry-leading software for DJs, offering high-quality features and stability.</p>
+                <img class="dj-img" src="serato logo.jpg" alt="Serato DJ Pro">
+                <ul>
+                    <li>High-resolution audio</li>
+                    <li>Plug and play integration</li>
+                    <li>Advanced performance features</li>
+                </ul>
+                <p>Watch more about Serato DJ Pro: Serato Studio</p>
+                <iframe width="100%" height="315" src="DJ Jazzy Jeff I Making a beat in Serato Studio.mp4" frameborder="0" allowfullscreen></iframe>
+            </section>
+            
+            <aside id="jazzy">
+                <h2>About DJ Jazzy Jeff</h2>
+                <p>DJ Jazzy Jeff is a legendary DJ known for his turntablism skills and contributions to hip-hop culture.</p>
+                <img class="dj-img" src="jazzyjeff.jpg" alt="DJ Jazzy Jeff">
+                <p>Check out one of his sets:</p>
+                <iframe width="100%" height="315" src="DJ Jazzy Jeff, Peter Piper Routine feat DJ Don Rodrigo (2).mp4" frameborder="0" allowfullscreen></iframe>
+            </aside>
+        </main>
+        
+        <section>
+            <h2>Feature Comparison Table</h2>
+            <table>
+                <tr>
+                    <th>Feature</th>
+                    <th>Serato DJ Pro</th>
+                    <th>DJ Jazzy Jeff</th>
+                    <th>Item</th>
+                    <th>Brand</th>
+                </tr>
+                <tr>
+                    <td>Performance</td>
+                    <td>Professional</td>
+                    <td>Legendary</td>
+                    <td>Turntable</td>
+                    <td>Technics SL-1200</td>
+                </tr>
+                <tr>
+                    <td>Software</td>
+                    <td>Serato DJ Pro</td>
+                    <td>Turntables</td>
+                    <td>DJ Mixer</td>
+                    <td>Pioneer DJM-S11</td>
+                </tr>
+            </table>
+        </section>
+        
+        <aside>
+            <h2>Resources</h2>
+            <p>Check out these tutorials:</p>
+            <ul>
+                <li><a href="https://serato.com" target="_blank">Serato Official Site</a></li>
+                <li><a href="https://www.youtube.com/results?search_query=serato+dj+pro+tutorials" target="_blank">YouTube Tutorials</a></li>
+            </ul>
+            <p><strong>See the Vision:</strong> <a href="https://your-vision-link.com" target="_blank">Click here to explore</a></p>
+            <img src="DJM_S7_TT.jpg" alt="Turntable setup" style="width:100%; border-radius:10px;">
+            <img src="serato-dj-logo.png" alt="Serato DJ Logo" class="serato-logo">
+        </aside>
+        
+        <footer>
+            <p>This site is authored and maintained by Jack Gipson. It is not an official website of the Maricopa County Community College District, and Maricopa is not responsible for the content of this site.</p>
+        </footer>
+    </div>
+</body>
+</html>
